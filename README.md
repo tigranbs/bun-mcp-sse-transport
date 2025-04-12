@@ -14,12 +14,6 @@ This package provides a Bun-specific implementation of SSE transport for MCP ser
 - Handles incoming JSON-RPC messages
 - Simple integration with Bun.serve
 
-## Installation
-
-```bash
-bun add bun-mcp-sse-transport
-```
-
 ## Quick Usage
 
 ```typescript

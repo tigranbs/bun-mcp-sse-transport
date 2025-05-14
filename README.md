@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tigranbs-bun-mcp-sse-transport-badge.png)](https://mseep.ai/app/tigranbs-bun-mcp-sse-transport)
+
 # bun-mcp-sse-transport
 
 A Server-Sent Events (SSE) transport implementation for the Model Context Protocol (MCP) using Bun.

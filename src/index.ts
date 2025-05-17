@@ -1,4 +1,4 @@
-import { randomUUID } from "node:crypto";
+import { randomUUIDv7 } from "bun";
 import { JSONRPCMessageSchema } from "@modelcontextprotocol/sdk/types.js";
 
 /**
@@ -19,7 +19,7 @@ export class BunSSEServerTransport {
    * @param _endpoint The endpoint where clients should POST messages
    */
   constructor(private _endpoint: string) {
-    this._sessionId = randomUUID();
+    this._sessionId = randomUUIDv7();
   }
 
   /**
